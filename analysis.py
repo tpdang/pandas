@@ -29,4 +29,4 @@ df = pd.read_csv('modified.csv')
 
 # print(df[["Name", "Total"]].sort_values(["Total"], ascending=False))
 
-print(df.groupby(["Type 1"]).mean().sort_values("Defense", ascending=False))
+print(df.groupby(["Type 1"]).mean())
