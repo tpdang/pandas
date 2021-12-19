@@ -1,4 +1,4 @@
-State,Gender,Year,Name,Occurances
+State,Gender,Year,Name,Occurences
 NC,F,1910,Mary,837
 NC,F,1910,Annie,401
 NC,F,1910,Ruth,235

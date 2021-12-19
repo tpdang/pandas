@@ -1,7 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv('modified.csv')
 
+namesdf = pd.read_csv('NC.txt')
 # # read each column
 # print(df[["Name", "Type 1"]])
 
@@ -29,4 +29,13 @@ df = pd.read_csv('modified.csv')
 
 # print(df[["Name", "Total"]].sort_values(["Total"], ascending=False))
 
-print(df.groupby(["Type 1"]).mean())
+# print(df.groupby(["Type 1"]).mean())
+
+
+# tylerdf = namesdf.loc[(namesdf['Name'] == "Tyler")
+#                       & (namesdf['Year'] >= 2015) & (namesdf['Gender'] == "M")]
+
+
+# tylerdf = tylerdf.reset_index()
+
+# tylerdf.to_csv('NC_Tyler.csv')
